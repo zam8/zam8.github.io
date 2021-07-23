@@ -1,0 +1,72 @@
+html, body{
+  /* background-color: whitesmoke; */
+}
+
+.main-content .content .content-panel .button a {
+  color: white;
+  text-decoration:none;
+}
+
+html, body .main-content{
+  background-color: whitesmoke;
+}
+.main-content {
+  width: 100%;
+  /* height: fit-content; */
+}
+
+.main-content .atas .atas-title{
+  padding: 10px 0px 20px 0px;
+  width: 70%;
+  margin: auto;
+}
+
+.main-content .content .content-panel{
+  width: 60%;
+  /* height: 250px; */
+  padding: 20px 20px 10px 20px;
+  margin: auto;
+  /* margin-bottom: 25px; */
+  background: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 6px -4px 16px -1px rgba(103,101,112,0.68); */
+  /* max-width: 1700px; */
+  /* margin-left: 20px; */
+}
+
+.main-content .content .content-panel h2,h1 {
+  text-align: center;
+  padding: 10px 10px 30px 20px;
+}
+
+/* .main-content .content .content-panel .button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
+.main-content .content .content-panel .button button{
+  margin: 0px 10px 10px 10px;
+}
+
+.main-content .content .content-panel #test{
+  position: absolute;
+  left: 10px;
+}
+
+.my{
+  background-color: red;
+  color: white;
+  font-size: 44px;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  /* .menu, .main, .right {
+    width: 100%;
+  } */
+}

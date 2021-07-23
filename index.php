@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Doc</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="atas">
+            <div class="atas-title">
+                <h1>Survey Data !</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-panel">
+                <h1>Apakah anda seorang wibu ?</h1>
+                <div style="text-align:center;" class="button">
+                    <button type="button" class="btn btn-success btn-lg" id="iya"><a href="hasil.php">iya</a></button>
+                    <button type="button" class="btn btn-danger btn-lg" id="tidak">Tidak</button>
+                </div>
+                <!-- <button type="button" class="btn btn-danger" id="test"><a href="hasil.php">Lainnya</a></button> -->
+            </div>
+        </div>
+        <div class="footer">
+            <!-- <h2>footer</h2> -->
+        </div>
+    </div>
+</body>
+<script>
+    $('#tidak').click(function (e) { 
+        // $('#tidak').css({
+        //     'background-color': 'red',
+        //     'color': 'white',
+        //     'font-size': '44px'
+        // });
+        $(this).addClass('my');
+        $(this).css({"left": Math.random() * window.outerWidth , "top": Math.random() * window.outerHeight}).textillate();
+    });
+
+    $('#tidak').mouseover(function () { 
+        $(this).addClass('my');
+        $(this).css({"left": Math.random() * window.outerWidth , "top": Math.random() * window.outerHeight}).textillate();
+    });
+</script>
+<style>
+    .my{
+        position: absolute;
+        margin: 0px 10px 10px 10px;
+    }
+</style>
+</html>
